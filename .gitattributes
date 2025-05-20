@@ -1,0 +1,8 @@
+# Set all text files to use LF in the repo, and convert to native on checkout
+* text=auto
+
+# Force certain files to use LF (for scripts, configs, etc.)
+*.sh text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
